@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Stack Sans Headline", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

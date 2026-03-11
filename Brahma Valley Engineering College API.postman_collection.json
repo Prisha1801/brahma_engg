@@ -1,0 +1,1206 @@
+{
+  "info": {
+    "_postman_id": "50bac84e-dcb6-414b-bbdb-b043b344b390",
+    "name": "Brahma Valley Engineering College API",
+    "description": "Full REST API collection for https://engineering.brahmavalley.edu.in/",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47748956",
+    "_collection_link": "https://go.postman.co/collection/47748956-50bac84e-dcb6-414b-bbdb-b043b344b390?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Home",
+      "item": [
+        {
+          "name": "Get Home Page Data",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/home",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "home"
+              ]
+            },
+            "description": "Returns carousel, about us, courses, college info, recruiters, eligibility PDF, brochure PDF"
+          },
+          "response": []
+        },
+        {
+          "name": "Fees Regulatory Authority",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/fees-regulatory-authority",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "fees-regulatory-authority"
+              ]
+            },
+            "description": "Returns engineering & MBA fee data"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "About Us",
+      "item": [
+        {
+          "name": "Board Members",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/about/board-members",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "about",
+                "board-members"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "President Desk",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/about/president",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "about",
+                "president"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "General Secretary Desk",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/about/general-secretary",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "about",
+                "general-secretary"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Vice President Desk",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/about/vice-president",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "about",
+                "vice-president"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Principal Desk",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/about/principal",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "about",
+                "principal"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Local Committees",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/about/local-committees",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "about",
+                "local-committees"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "College Committees",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/about/college-committees",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "about",
+                "college-committees"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Vision & Mission",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/about/vision-mission",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "about",
+                "vision-mission"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Approvals & Affiliation",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/about/approvals-affiliation",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "about",
+                "approvals-affiliation"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Admission",
+      "item": [
+        {
+          "name": "Program Details",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/admission/program-details",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "program-details"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Fee Structure",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/admission/fee-structure",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "fee-structure"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Rules & Regulation",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/admission/rules-regulation",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "rules-regulation"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Required Documents",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/admission/required-documents",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "required-documents"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Eligibility",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/admission/eligibility",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "eligibility"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "FE Admission",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/admission/fe",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "fe"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "DSE Admission",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/admission/dse",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "dse"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "MBA Admission",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/admission/mba",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "mba"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "FE Against CAP",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/admission/fe-cap",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "fe-cap"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "DSE Against CAP",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/admission/dse-cap",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "dse-cap"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "MBA Against CAP",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/admission/mba-cap",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "mba-cap"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Submit Admission Form",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"firstName\": \"Rohan\",\n  \"lastName\": \"Patil\",\n  \"dob\": \"2003-05-15\",\n  \"gender\": \"Male\",\n  \"address\": \"123 Main Street, Nashik\",\n  \"email\": \"rohan.patil@example.com\",\n  \"phone\": \"9876543210\",\n  \"qualification\": \"HSC\",\n  \"percentage\": \"85.60\",\n  \"course\": \"Computer Engineering\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/admission/submit-form",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "admission",
+                "submit-form"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Departments",
+      "item": [
+        {
+          "name": "Mechanical Engineering",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/department/mechanical",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "department",
+                "mechanical"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Computer Engineering",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/department/computer",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "department",
+                "computer"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Civil Engineering",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/department/civil",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "department",
+                "civil"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Electrical Engineering",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/department/electrical",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "department",
+                "electrical"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "First Year Engineering",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/department/first-year",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "department",
+                "first-year"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "MBA",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/department/mba",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "department",
+                "mba"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "NAAC",
+      "item": [
+        {
+          "name": "IQAC",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/naac/iqac",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "naac",
+                "iqac"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Best Practice",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/naac/best-practice",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "naac",
+                "best-practice"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Feedback",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/naac/feedback",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "naac",
+                "feedback"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "AQAR Documents",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/naac/aqar-documents",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "naac",
+                "aqar-documents"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "IIQC Documents",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/naac/iiqc-documents",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "naac",
+                "iiqc-documents"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cycle I",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/naac/cycle-i",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "naac",
+                "cycle-i"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "AQAR 2023-24",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/naac/aqar-23-24",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "naac",
+                "aqar-23-24"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "AQAR 2024-25",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/naac/aqar-24-25",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "naac",
+                "aqar-24-25"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "NIRF",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/naac/nirf",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "naac",
+                "nirf"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "NAAC Documents",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/naac/naac-documents",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "naac",
+                "naac-documents"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "View NAAC Doc (ID=1)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/naac/view-document/1",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "naac",
+                "view-document",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Student Corner",
+      "item": [
+        {
+          "name": "Notices",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/student/notices",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "student",
+                "notices"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Examination",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/student/examination",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "student",
+                "examination"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Rules & Regulation",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/student/rules-regulation",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "student",
+                "rules-regulation"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Important Contacts",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/student/important-contacts",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "student",
+                "important-contacts"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Student Photos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/student/photos",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "student",
+                "photos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Scholarship",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/student/scholarship",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "student",
+                "scholarship"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Student Council",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/student/council",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "student",
+                "council"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Alumni Students",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/student/alumni",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "student",
+                "alumni"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Alumni Registration",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/student/alumni-registration",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "student",
+                "alumni-registration"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Alumni Meet",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/student/alumni-meet",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "student",
+                "alumni-meet"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Alumni Countries",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/student/alumni-countries",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "student",
+                "alumni-countries"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Gallery",
+      "item": [
+        {
+          "name": "Gallery",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/gallery",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "gallery"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Facilities",
+      "item": [
+        {
+          "name": "Transport",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/facility/transport",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "facility",
+                "transport"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Hostel",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/facility/hostel",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "facility",
+                "hostel"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Sports",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/facility/sports",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "facility",
+                "sports"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cafeteria",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/facility/cafeteria",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "facility",
+                "cafeteria"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Library",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/facility/library",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "facility",
+                "library"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Media Coverage",
+      "item": [
+        {
+          "name": "Events",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/media/events",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "media",
+                "events"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "News",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/media/news",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "media",
+                "news"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Placement",
+      "item": [
+        {
+          "name": "Placement Cell",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/placement",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "placement"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "item": [
+        {
+          "name": "Get Contact Info",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base_url}}/contact",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "contact"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Submit Contact Form",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Rahul Sharma\",\n  \"email\": \"rahul@example.com\",\n  \"subject\": \"Admission Inquiry\",\n  \"message\": \"I want to know more about the admission process for Computer Engineering.\"\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/contact/submit",
+              "host": [
+                "{{base_url}}"
+              ],
+              "path": [
+                "contact",
+                "submit"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://engineering.brahmavalley.edu.in/api",
+      "type": "string"
+    }
+  ]
+}
