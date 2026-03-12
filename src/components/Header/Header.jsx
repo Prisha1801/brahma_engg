@@ -2,8 +2,39 @@ import TopBar from './TopBar';
 import InfoBar from './InfoBar';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 const FloatingButtons = () => {
+  const [shouldHide, setShouldHide] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const windowHeight = window.innerHeight;
+      
+      // Near top condition
+      const nearTop = scrollY < 100;
+      
+      // Near footer condition
+      const footer = document.querySelector('footer');
+      const nearFooter = footer ? (scrollY + windowHeight >= footer.offsetTop) : false;
+      
+      // Hide buttons if near top or near footer
+      setShouldHide(nearTop || nearFooter);
+    };
+
+    // Run once on mount to set initial state
+    handleScroll();
+    
+    // Add scroll listener
+    window.addEventListener('scroll', handleScroll);
+    
+    // Cleanup on unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <style>{`
@@ -29,7 +60,15 @@ const FloatingButtons = () => {
         }
       `}</style>
 
-      <div className="fixed right-0 top-1/2 -translate-y-1/2 z-[100] flex flex-col gap-2 mr-2">
+      <div 
+        className="fixed right-0 top-1/2 -translate-y-1/2 z-[40] flex flex-col gap-2 mr-2"
+        style={{
+          transform: shouldHide ? 'translateX(110%)' : 'translateX(0)',
+          opacity: shouldHide ? 0 : 1,
+          pointerEvents: shouldHide ? 'none' : 'auto',
+          transition: 'transform 0.4s ease, opacity 0.4s ease'
+        }}
+      >
         <Link
           to="/contact"
           className="shine-btn relative bg-[#1e4d5c] text-white font-semibold text-sm shadow-lg hover:bg-[#163a46] transition-colors flex items-center justify-center overflow-hidden border-2 border-white"
